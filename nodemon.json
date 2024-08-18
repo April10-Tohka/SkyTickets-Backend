@@ -1,0 +1,6 @@
+{
+  "watch": ["src","./index.ts"],
+  "ignore": ["node_modules","drawio","test"],
+  "ext": "ts,js",
+  "exec": "tsx index.ts"
+}

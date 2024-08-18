@@ -1,4 +1,7 @@
 node_modules
 .idea
 package-lock.json
-.env.development
+.env
+drawio
+test
+src/logs

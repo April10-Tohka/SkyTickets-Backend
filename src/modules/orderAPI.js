@@ -98,7 +98,7 @@ router.post('/orders',(req,res)=>{
                 })
             })
             .catch(error=>{
-                console.log("创建订单失败，error:",error);
+                console.log("创建订单失败，errors:",error);
                 res.status(400).json({error:"创建订单失败"})
             })
     }
@@ -153,7 +153,7 @@ router.put('/orders/:orderID',(req,res)=>{
     }
     catch (error) {
         console.error('Error updating order status:', error);
-        res.status(500).json({ error: 'Internal server error' });
+        res.status(500).json({ error: 'Internal server errors' });
     }
 })
 
